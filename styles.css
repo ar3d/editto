@@ -193,8 +193,8 @@ model-viewer {
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
-  top: 800%;
-  left: -800%;
+  top: -800%;
+  left: -600%;
   width: max-content;
 }
 
@@ -317,8 +317,8 @@ model-viewer {
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
-  top: -500%;
-  left: -900%;
+  top: -300%;
+  left: -2000%;
   width: max-content;
 }
 
