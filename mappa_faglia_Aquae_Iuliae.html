@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mappa della faglia Aquae Iuliae</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Mappa della faglia Aquae Iuliae">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <link type="text/css" href="./styles_iframe.css" rel="stylesheet"/>
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+		
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Fjalla+One' type='text/css' media='all' />
+		<link rel='stylesheet' href='http://demo.persaper.it/css/demo.css' type='text/css' media='all' />
+		
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js'></script>
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js'></script>
+		<script type='text/javascript' src='http://demo.persaper.it/js/demo.js'></script>
+                <script type='text/javascript' src='script_faglia.js'></script>
+                <script type='text/javascript' src='script_segmento_nord.js'></script>
+                <script type='text/javascript' src='script_segmento_sud.js'></script>
+                
+
+		
+  </head>
+  <body>
+
+  <svg style="display:none">
+  <defs>
+    <symbol viewBox="0 0 38 38" id="icon-cross">
+      <path d="M19 17.6l5.3-5.4 1.4 1.4-5.3 5.4 5.3 5.3-1.4 1.4-5.3-5.3-5.3 5.3-1.4-1.4 5.2-5.3-5.2-5.3 1.4-1.4 5.3 5.3z"/>
+    </symbol>
+    <symbol viewBox='0 0 150 130' id="icon-loading">
+      <title>Loading</title>
+      <path d='M81.5 33l30.8-32.8c0.3-0.3 0.5-0.2 0.3 0.3 -1.8 5.2-1.7 15.3-1.7 15.3 -0.1 6.8-0.8 11.7-6.6 17.9L74.8 65.1c-0.2 0.2-0.4 0-0.3-0.2 1.5-5.1 1.2-15.1 1.2-15.1C75.4 45.6 76.4 38.4 81.5 33M105.9 54.8l43.8 10.3c0.4 0.1 0.4 0.4-0.2 0.4 -5.4 1-14.1 6.1-14.1 6.1 -6 3.3-10.5 5.2-18.8 3.2l-41.9-9.9c-0.3-0.1-0.2-0.3 0-0.4 5.2-1.3 13.7-6.5 13.7-6.5C92 55.9 98.7 53.1 105.9 54.8M99.4 86.3l13 43.2c0.1 0.4-0.1 0.5-0.4 0.1 -3.6-4.2-12.4-9.2-12.4-9.2 -5.8-3.5-9.7-6.5-12.2-14.6L75 64.5c-0.1-0.3 0.2-0.4 0.3-0.2 3.7 3.9 12.5 8.6 12.5 8.6C91.5 74.8 97.3 79.2 99.4 86.3M68.7 97l-30.8 32.8c-0.3 0.3-0.5 0.2-0.3-0.3 1.8-5.2 1.7-15.3 1.7-15.3 0.1-6.8 0.8-11.7 6.6-17.9l29.5-31.4c0.2-0.2 0.4 0 0.3 0.2 -1.5 5.1-1.2 15.1-1.2 15.1C74.8 84.4 73.8 91.6 68.7 97M44.1 75.8L0.3 65.4C-0.1 65.3-0.1 65 0.5 65c5.4-1 14.1-6.1 14.1-6.1 6-3.3 10.5-5.2 18.8-3.2l41.9 9.9c0.3 0.1 0.2 0.3 0 0.4 -5.2 1.3-13.7 6.5-13.7 6.5C58.1 74.7 51.3 77.5 44.1 75.8M50.2 43.8l-13-43.2c-0.1-0.4 0.1-0.5 0.4-0.1C41.2 4.7 50 9.7 50 9.7c5.8 3.5 9.7 6.5 12.2 14.6l12.4 41.3c0.1 0.3-0.2 0.4-0.3 0.2 -3.7-3.9-12.5-8.6-12.5-8.6C58.1 55.4 52.4 50.9 50.2 43.8'/>
+    </symbol>
+  </defs>
+</svg>
+
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="mappa_faglia.glb" ios-src="mappa_faglia.usdz" camera-controls min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 90deg auto" camera-orbit="0.4775deg 39.19deg auto" id="modelViewer" ar ar-modes="webxr">
+          <button class="Hotspotaudio" slot="hotspot-1" data-position="-0.6361805932995763m 0.6767822963133596m 0.6483555741750152m" data-normal="0m 0.5200031141186146m 0.854164364339173m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationaudio">La faglia Aquae Iuliae<br><audio controls style="height:35px; width:120px;">
+  <source src="Faglia-aquae-iulia.mp3"</div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="-0.41040232116849634m 0.9946389664672328m 0.08232598895064072m" data-normal="0.01589106816519988m 0.9952628100681378m 0.09591356967521941m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Venafro</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.2646412154835135m 1.052191640950748m 0.13189846034037842m" data-normal="0.13443600707449022m 0.946217753010096m 0.2942769510009112m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Monte Cesaiavutti</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="0.6253994278996339m 1.0599478372830957m 0.36490953556135197m" data-normal="0.24779695931649487m 0.6936468047710393m 0.6763510753923786m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Monte Favaracchi</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="-0.2248724958218658m 1.0184140280109137m -0.20835614446016362m" data-normal="0.04475360080173984m 0.9982052818752519m -0.03979108507728142m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Colle Riparossa</div>
+      </button><button class="Hotspotpopup" slot="hotspot-6" data-position="0.02308672951005565m 0.9966961698841786m 0.04542937221536805m" data-normal="-0.28432272439616413m 0.957061913879099m 0.05650735699020959m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><div class="popup-me_1">Faglia Aquae Iuliae</div></div>
+      </button><button class="Hotspotpopup" slot="hotspot-7" data-position="-0.4049727303802043m 1.015945094354378m -0.3179205821169766m" data-normal="0.22292641938615962m 0.9000120491068831m 0.3745425516574792m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><div class="popup-me_2">Segmento Nord</div></div>
+      </button><button class="Hotspotpopup" slot="hotspot-8" data-position="0.4714874937033414m 1.010832392635034m 0.3467624884708138m" data-normal="-0.07441864133261686m 0.8406043300014915m 0.5365130251959881m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><div class="popup-me_3">Segmento Sud</div></div>
+      </button>
+      <button class="Hotspotpopup" slot="hotspot-9" data-position="-0.19474894752774982m 1.0001508232184637m -0.10803555628222003m" data-normal="-0.05988717662908828m 0.9396081519775639m 0.33697187837073844m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><a href="https://ar3d.github.io/faglia_aquae_iuliae/modello_faglia/profilo_acquedotto.html" target="_blank">Taglio acquedotto</a></div>
+       </button>		 
+      <button class="Hotspotpopup" slot="hotspot-10" data-position="-0.0014812204373193805m 0.9951458893949638m -0.02188069478908064m" data-normal="-0.006237787136960788m 0.9999373006734139m 0.009299716855934878m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><a href="https://ar3d.github.io/faglia_aquae_iuliae/modello_faglia/acque_solfe.html" target="_blank">Acque solfe</a></div>
+      </button>
+      <button class="Hotspotpopup" slot="hotspot-11" data-position="0.28335888583846175m 0.9975267968020902m 0.38876489751832544m" data-normal="0.021520562438721583m 0.9997313589774035m -0.008606699106804795m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><a href="https://ar3d.github.io/faglia_aquae_iuliae/modello_faglia/soffione_ciorlano.html" target="_blank">Soffione di Ciorlano</a></div>
+      </button>
+      <button class="Hotspotpopup" slot="hotspot-12" data-position="0.6634685679874175m 1.0412454555283048m 0.19584668383642354m" data-normal="-0.15594613886023795m 0.9514130787792442m 0.2655069778788932m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><a href="https://ar3d.github.io/faglia_aquae_iuliae/modello_faglia/terremoto_346.html" target="_blank">Terremoto 346</a></div>
+      </button>
+      <button class="Hotspotpopup" slot="hotspot-13" data-position="-0.3083177869673488m 1.0265827226068356m -0.44974225435314474m" data-normal="-0.055894329907068684m 0.9102536884281229m 0.41026094938129054m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><a href="https://ar3d.github.io/faglia_aquae_iuliae/modello_faglia/terremoto_847.html" target="_blank">Terremoto 847</a></div>
+      </button>
+      <button class="Hotspotpopup" slot="hotspot-14" data-position="-0.6136562662274802m 1.0207163170268445m -0.27024202523815816m" data-normal="0.07021400426593345m 0.984948597613983m -0.15794383072216436m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotationpopup"><a href="https://ar3d.github.io/faglia_aquae_iuliae/modello_faglia/terremoto_1349.html" target="_blank">Terremoto 1349</a></div>
+      </button>
+
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          Mostra nello spazio
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+
+
+
+       <div class="mwc-switch-wrapper">
+      <mwc-switch id="toggleHotspotspopup"><span>Mostra gli hotspot</span></mwc-switch>
+    </div>
+<!--     <paper-toggle-button id="toggleHotspotspopup">Show annotations</paper-toggle-button> --> 
+      <div class="mwc-switch-wrapper-1">
+      <mwc-switch id="toggleHotspotsaudio"><span>Mostra gli audio</span></mwc-switch>
+    </div>
+<!--     <paper-toggle-button id="toggleHotspotsaudio">Show annotations</paper-toggle-button> --> 
+    </model-viewer> 
+		  
+		  
+    <script src="script.js"></script>
+    <script type="module">
+    
+    toggleHotspotspopup.addEventListener('change', () => {
+      modelViewer.classList.toggle('show-hotspotspopup', toggleHotspotspopup.checked);
+    });
+    toggleHotspotsaudio.addEventListener('change', () => {
+      modelViewer.classList.toggle('show-hotspotsaudio', toggleHotspotsaudio.checked);
+    });
+
+  </script>
+
+
+<script>	
+(() => {
+  const modelViewer = document.querySelector('#modelViewer');
+  const tapDistance = 2;
+  let panning = false;
+  let panX, panY;
+  let startX, startY;
+  let lastX, lastY;
+  let metersPerPixel;
+
+  const startPan = () => {
+    const orbit = modelViewer.getCameraOrbit();
+    const {theta, phi, radius} = orbit;
+    const psi = theta - modelViewer.turntableRotation;
+    metersPerPixel = 0.75 * radius / modelViewer.getBoundingClientRect().height;
+    panX = [-Math.cos(psi), 0, Math.sin(psi)];
+    panY = [
+      -Math.cos(phi) * Math.sin(psi),
+      Math.sin(phi),
+      -Math.cos(phi) * Math.cos(psi)
+    ];
+    modelViewer.interactionPrompt = 'none';
+  };
+
+  const movePan = (thisX, thisY) => {
+    const dx = (thisX - lastX) * metersPerPixel;
+    const dy = (thisY - lastY) * metersPerPixel;
+    lastX = thisX;
+    lastY = thisY;
+
+    const target = modelViewer.getCameraTarget();
+    target.x += dx * panX[0] + dy * panY[0];
+    target.y += dx * panX[1] + dy * panY[1];
+    target.z += dx * panX[2] + dy * panY[2];
+    modelViewer.cameraTarget = `${target.x}m ${target.y}m ${target.z}m`;
+
+    // This pauses turntable rotation
+    modelViewer.dispatchEvent(new CustomEvent(
+          'camera-change', {detail: {source: 'user-interaction'}}));
+  };
+
+  const recenter = (pointer) => {
+    panning = false;
+    if (Math.abs(pointer.clientX - startX) > tapDistance ||
+        Math.abs(pointer.clientY - startY) > tapDistance)
+      return;
+    const rect = modelViewer.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+    const hit = modelViewer.positionAndNormalFromPoint(x, y);
+    modelViewer.cameraTarget =
+        hit == null ? 'auto auto auto' : hit.position.toString();
+  };
+
+  const onPointerUp = (event) => {
+    const pointer = event.clientX ? event : event.changedTouches[0];
+    if (Math.abs(pointer.clientX - startX) < tapDistance &&
+        Math.abs(pointer.clientY - startY) < tapDistance) {
+      recenter(pointer);
+    }
+    panning = false;
+  };
+
+  modelViewer.addEventListener('mousedown', (event) => {
+    startX = event.clientX;
+    startY = event.clientY;
+    panning = event.button === 2 || event.ctrlKey || event.metaKey ||
+        event.shiftKey;
+    if (!panning)
+      return;
+
+    lastX = startX;
+    lastY = startY;
+    startPan();
+    event.stopPropagation();
+  }, true);
+
+  modelViewer.addEventListener('touchstart', (event) => {
+    startX = event.touches[0].clientX;
+    startY = event.touches[0].clientY;
+    panning = event.touches.length === 2;
+    if (!panning)
+      return;
+
+    const {touches} = event;
+    lastX = 0.5 * (touches[0].clientX + touches[1].clientX);
+    lastY = 0.5 * (touches[0].clientY + touches[1].clientY);
+    startPan();
+  }, true);
+
+  modelViewer.addEventListener('mousemove', (event) => {
+    if (!panning)
+      return;
+
+    movePan(event.clientX, event.clientY);
+    event.stopPropagation();
+  }, true);
+
+  modelViewer.addEventListener('touchmove', (event) => {
+    if (!panning || event.touches.length !== 2)
+      return;
+
+    const {touches} = event;
+    const thisX = 0.5 * (touches[0].clientX + touches[1].clientX);
+    const thisY = 0.5 * (touches[0].clientY + touches[1].clientY);
+    movePan(thisX, thisY);
+  }, true);
+
+  self.addEventListener('mouseup', (event) => {
+    recenter(event);
+  }, true);
+  
+  self.addEventListener('touchend', (event) => {
+    if (event.touches.length === 0) {
+      recenter(event.changedTouches[0]);
+    }
+  }, true);
+})();
+</script>
+
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <!--   <script type="module" src="https://unpkg.com/@polymer/paper-toggle-button@3.0.1/paper-toggle-button.js?module"></script> -->
+  <script type="module" src="https://unpkg.com/@material/mwc-switch@0.14.1/mwc-switch.js?module"></script>
+
+
+
+  </body>
+</html>
