@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".popup-me_7").click(function(){
 
-		pop_init_7( "L'iscrizione, dopo aver definito le norme a tutela della struttura, passa a normare le modalità di gestione e controllo della distribuzione idrica tra gli abitanti della colonia. Questo compito era assegnato ai duumviri, magistrati eletti in coppie per ragioni di reciproco controllo e consiglio. La nomina dei duumviri era affidata ai decurioni che componevano il senato della colonia, composto da un numero di membri, stabilito dalla statuto cittadino, oscillante fra 80 e 100 unità. In sostanza ai duumviri erano delegate le funzioni amministrative relative all'acquedotto, ma il potere di disporre della donazione fatta dall'imperatore era dei rappresentanti della colonia." );
+		pop_init_7( "L'iscrizione, dopo aver definito le norme a tutela della struttura, passa a normare le modalità di gestione e controllo della distribuzione idrica tra gli abitanti della colonia. Questo compito era assegnato ai duumviri, magistrati eletti in coppie per ragioni di reciproco controllo e consiglio. La nomina dei duumviri era affidata ai decurioni che componevano il senato della colonia, composto da un numero di membri, stabilito dallo statuto cittadino, oscillante fra 80 e 100 unità. In sostanza ai duumviri erano delegate le funzioni amministrative relative all'acquedotto, ma il potere di disporre della donazione fatta dall'imperatore era dei rappresentanti della colonia." );
 
 	});
 

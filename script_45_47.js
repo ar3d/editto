@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".popup-me_9").click(function(){
 
-		pop_init_9( "In questo passo Augusto probabilmente ha voluto evitare eventuali contenziosi legati a interventi di ampliamento o miglioramento del percorso dell'acquedotto, decretando che gli atti dei duumviri abbiano per i cittadini della Colonia lo stesso valore dell'editto." );
+		pop_init_9( "In questo passo Augusto probabilmente ha voluto evitare eventuali contenziosi legati a interventi di ampliamento o miglioramento del percorso dell'acquedotto, decretando che gli atti dei duumviri abbiano per i cittadini della colonia lo stesso valore dell'editto." );
 
 	});
 
