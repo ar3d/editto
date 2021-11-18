@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".popup-me_3").click(function(){
 
-		pop_init_3( "L'editto nomina due proprietari terrieri, Quinto Sirinio, figlio di Lucio, della tribù Teretina e Lucio Pompeo Terenzio Sulla, figlio di Marco, nei cui fondi passava il canale dell'acquedotto, e stabilisce il modello comportamentale da tenere mediando fra esigenze pubbliche, costituite dal corretto approvvigionamento idrico della colonia, e diritti privati, rappresentati dalla tutela dei manufatti che intercettano i canali. Il testo, quindi, norma una servitù di passaggio strettamente connessa alle esigenze di manutenzione dell'acquedotto." );
+		pop_init_3( "L'editto nomina due proprietari terrieri, Quinto Sirinio, figlio di Lucio, della tribù Teretina e Lucio Pompeo Terenzio Sulla, figlio di Marco, nei cui fondi passava il canale dell'acquedotto, e stabilisce il modello comportamentale da tenere mediando fra esigenze pubbliche, costituite dal corretto approvvigionamento idrico della colonia, e diritti privati, rappresentati dalla tutela dei manufatti intercettati dai canali. Il testo, quindi, norma una servitù di passaggio strettamente connessa alle esigenze di manutenzione dell'acquedotto." );
 
 	});
 
